@@ -11,10 +11,11 @@ add_executable(Shellmax
     "src/config.cpp"
     "src/exit.cpp"
     "include/Shellmax/exit.h"
-    "include/Shellmax/exit.h"
+    "include/Shellmax/special_inputs.h"
     "include/Shellmax/buffer.h"
     "src/buffer.cpp"
     "include/Shellmax/command.h"
+
 )
 
 FetchContent_Declare(
