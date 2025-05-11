@@ -28,4 +28,4 @@ add_executable(Shellmax
 
 target_include_directories(Shellmax PRIVATE "include/")
 target_include_directories(Shellmax PRIVATE "include/shellmax")
-target_link_libraries(Shellmax PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(Shellmax PRIVATE)
